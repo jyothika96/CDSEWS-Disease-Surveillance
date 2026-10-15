@@ -1,0 +1,24 @@
+{
+  "name": "community-disease-surveillance-system",
+  "version": "1.0.0",
+  "description": "Community Disease Surveillance and Early-Warning System (CDSEWS) - Full Stack Web Application",
+  "private": true,
+  "scripts": {
+    "setup:all": "npm --prefix server install && npm --prefix client install",
+    "db:setup": "npm --prefix server run db:setup",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build"
+  },
+  "keywords": [
+    "disease-surveillance",
+    "epidemiology",
+    "early-warning-system",
+    "react",
+    "nodejs",
+    "express",
+    "mysql"
+  ],
+  "author": "Antigravity Pair Programmer",
+  "license": "MIT"
+}
